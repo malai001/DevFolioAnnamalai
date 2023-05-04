@@ -1,0 +1,429 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Annamalai | Software Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="Annamalai, skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Annamalai Arumugam | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Annamalai Arumugam| Software Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using React" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+<!--    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+-->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="Twitter_URL" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Annamalai Arumugam | Software Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using React"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder 
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />-->
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+      
+    </script>
+    <!-- End of Google Analytics -->
+    <style>
+      .himage {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/Background.png");
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('src/Background.png'); background-position: center;
+                          background-repeat: no-repeat;background-size: cover; position: relative;">
+      <section class="container" style="margin: 0px; width: 55%">
+        <h1 class="hero-title" style="color: lightgoldenrodyellow;"> 
+          Hi, My name is <span class="text-color-main name">Annamalai Arumugam</span>
+          <br />
+          Passionated Software Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/Res_Annamalai.svg"
+              alt="Profile Image"
+              width="550"
+              height="450"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Welcome to Annamalai Arumugam's portfolio, an inspiring journey through 6 years of exceptional career and expertise of a seasoned senior Software 
+              Developer. With a wealth of experience technical prowess, and a relentless drive for excellence, Annamalai Arumugam has curated this portfolio
+              to demonstrate their remarkable abilities and contributions in the field of software development.
+            </p>
+            <p class="about-wrapper__info-text">
+              Throughout their illustious career, Annamalai Arumugam has consistently delivered outstanding results, showcasing thier expertise in various facets 
+              software devlopment proficiency in the industry.
+            <p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/Res_W_Annamalai.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Work experience</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+          <article class="column">
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/viasat_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="20"
+                    height="10"
+                  />
+                </div>
+              </a>
+            </div>
+        </article>
+          <article class="column">
+            <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Senior Software Developer (Aug 2018 - Aug 2022)</h3>
+            <p class="project-wrapper__text-info">
+            <br>1. Developed Microservices and its associated API using Spring boot MVC that includes multiple GET/PUT/POST API calls for service chaining in 
+                   data centre networking - 5X increase Connectivity in new modem deployment.
+            </br>
+            <br>
+                2. Implemented VNC obfuscation for the remote console VNC using Django and Flask API, Enabled HTTPS security and migrated telnet console 
+                   connection from HTTP to HTTPS - Increased security up to triple times than former connections. 
+            </br>
+            <br>
+                3. Designed new portfolio pages for Viasat cloud applications using HTML, CSS and angular 14. x - Improved page rendering and clients were 
+                   impressed with the new MVC rendering.
+            </br>
+            <br>
+              4. Created a Speed check application including an IPERF speed test, and Wifi range finder using Django MVC - Improved the Modem device's performances 
+                  and helped the business to attract close to 5k New customers.
+            </br>
+            <br>
+                <span style="color: dark-blue">Technologies: C, Go, Python, Java, Spring MVC, Django, Flask, Angular, Docker AWS, GIT, Nginx, Apache. </span>
+            </br>
+            </p>
+              <!-- <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a>
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div> -->
+            </div>
+            </article>
+          </article>
+          <!-- /END Project -->
+
+            <article class="row">          
+              <article class="column">
+                <div class="project-wrapper__text" style="width: 175%;">
+                <h3 class="project-wrapper__text-title">Software Developer (Jul 2016 - Dec 2017)</h3>
+                <p class="project-wrapper__text-info">
+                <br>1. Using SDK toolkit to create customized softphones for contact centre agents, Developed new web softphones based
+                     on given requirements using SIP Protocol and WEBRTC packages - More than 10k+ contact centre agents using
+                     these softphones and solving customer requests.
+                </br>
+                <br>
+                  2. Spearheaded IVR strategy design tool that is built on JAVA and .NET. Part of the tool team and designed several IVR
+                     flows for production. Increased business by up to 20k$ per year.
+                </br>
+                <br>
+                  <span style="color: dark-blue;">Technologies: Python, SIP Server, Java, .NET, WEBRTC, SCXML, CUCUMBER, ROBOT, Jenkins, Chef.</span>
+                </br>
+                </p>
+              </article>
+
+               <article class="column">
+                 <div class="project-wrapper__image" style="margin-left: 50%; width: 50%;">
+                   <a href="#" target="_blank" rel="noopener noreferrer">
+                     <div class="thumbnail rounded">
+                       <img
+                          src="./assets/genesys-logo.png"
+                          class="img-fluid"
+                          alt="Project Image"
+                          width="20"
+                          height="10"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </article>
+            </article>
+          <!-- Each .row is a project
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <p class="project-wrapper__text-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
+                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
+                sint saepe nostrum! Enim, perferendis.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          </END Project -->
+
+          <!-- Each .row is a project
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <p class="project-wrapper__text-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
+                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
+                sint saepe nostrum! Enim, perferendis.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article> -->
+          <!-- /END Project 
+        </div> -->
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Reach out to me</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">annamalai.vignesh7@gmail.com</p>
+          <a href="./assets/Res_W_Annamalai.pdf" class="cta-btn cta-btn--resume">Click to Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/vigneshannamal1"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/its_me_malai007/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/annamalaiarumugam/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/malai001"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Developed by
+          <a
+            href="https://github.com/malai001"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Annamalai</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
