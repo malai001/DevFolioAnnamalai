@@ -4,6 +4,9 @@
   <img src="assets/devfolio.gif" alt="Devfolio" />
 </h2>
 
+## Demo
+How the final website looks like - https://annamalaiportfolidev.web.app/ hosted in Firebase
+
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations + Hover Effects\
