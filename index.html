@@ -20,7 +20,7 @@ Have fun creating your portfolio on this template!!! -->
     <meta name="keywords" content="Annamalai, skill" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Annamalai Arumugam | Developer" />
+    <meta name="description" content="Annamalai Arumugam | Software Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
@@ -127,7 +127,52 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Work experience</h2>
-
+          <article class="row">
+            <article class="column">
+              <div class="project-wrapper__image">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <div class="thumbnail rounded">
+                    <img
+                      src="./assets/digiclips-logo.png"
+                      class="img-fluid"
+                      alt="Project Image"
+                      width="20"
+                      height="10"
+                    />
+                  </div>
+                </a>
+              </div>
+          </article>
+            <article class="column">
+              <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Independent Graduate Researcher, Digiclips Inc (September 2022 - May 2024)</h3>
+              <p class="project-wrapper__text-info">
+              <br> Developed chatbot for the university ECS department using OpenAI and ease the freshman onboarding, 
+              This Bot will use existing ITuffy data and 20+ existing links on the landing page.
+              </br>
+              <br>
+              Initiated FFMPEG video recording adapters, Mysql and Docker containers to convert the recorded conversation to 
+              text which also Kafka message queues for streaming - Increased Digiclips TV backend server efficiency by up to 50%.
+              </br>
+              <br>
+              Kafka Message queues were also used for publisher subscriber scheme for frame consumption by digiclips search engines - 
+              This frontend uses angular 16, ExpressJS, Redis Mocha, NGINX load balancer
+              </br>
+              </p>
+                <!-- <div class="project-wrapper__text-btns">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="cta-btn cta-btn--hero cta-btn--projects"
+                    >See Live</a>
+                  <a href="#" target="_blank" class="cta-btn text-color-main"
+                    >Source Code</a
+                  >
+                </div> -->
+              </div>
+              </article>
+            </article>
           <!-- Each .row is a project -->
           <article class="row">
           <article class="column">
@@ -149,34 +194,44 @@ Have fun creating your portfolio on this template!!! -->
             <div class="project-wrapper__text">
             <h3 class="project-wrapper__text-title">Senior Software Developer (Aug 2018 - Aug 2022)</h3>
             <p class="project-wrapper__text-info">
-            <br>As a Senior Software Developer at Viasat Inc in Chennai, India, from August 2019 to August 2022, I spearheaded critical initiatives and made significant contributions to the company's technology landscape. Here is a detailed description of my key accomplishments:
+            <br>As a Senior Software Developer at Viasat Inc in Chennai, India, from August 2019 to August 2022, I spearheaded critical initiatives and 
+            made significant contributions to the company's technology landscape. Here is a detailed description of my key accomplishments:
             </br>
             <br>
-            VxLan Network Redesign for Dynamic Service Chaining: I undertook the pivotal task of designing a new VxLan network for dynamic service chaining, specifically targeting network control plane components. 
-            Leveraging openvswitch ovsvsctl, I successfully reduced the deployment latency for new devices from a daunting 1-2 hours to an impressive 2-3 minutes. 
-            This optimization greatly enhanced network efficiency and responsiveness.
+            Led the Retail Billing full stack-based platform for modem devices and owned 3 core microservices components such as data usage, 
+            calculation service, and payment services - Used MQ to send real-time data which increased billing accuracy by up to 50%.
             </br>
             <br>
-            Advanced Confidentiality Security Module: My role involved developing an Advanced Confidentiality security module, which played a crucial role in safeguarding sensitive data within WIMAX packets. 
-            This module ensured the secure transmission of secured and user profile information, bolstering data integrity and privacy.
+            Designed and implemented a user authentication service and authorization service using Spring Security and JWT, 
+            enhancing system security and reducing unauthorized access incidents by 50%.
             </br>
             <br>
             WiFi Booster Software Architecture: I led the architectural design of a WiFi Booster software system, leveraging the Qualcomm SON stack.
-            This innovation empowered Viasat Gateway terminal devices to repeat and amplify WiFi signals, resulting in a remarkable signal strength improvement of up to 2x speed. 
-            This achievement translated into enhanced user experiences and increased customer satisfaction.
+            This innovation empowered Viasat Gateway terminal devices to repeat and amplify WiFi signals, resulting in a remarkable signal 
+            strength improvement of up to 2x speed. This achievement translated into enhanced user experiences and increased customer satisfaction.
             </br>
             <br>
-            Ground Systems Plugin Development: One of my standout accomplishments was the creation of a plugin for Ground systems, which could be seamlessly deployed as virtual machines (VMs) within the Viastack environment. 
-            This deployment utilized the KVM/QEMU hypervisor and was executed on 64-core CPU host machines, optimizing resource utilization. 
-            Furthermore, I integrated online monitoring capabilities, a move that not only improved system visibility but also generated substantial cost savings. 
-            In fact, our cost-saving measures led to a monthly reduction of up to $5,000 in cloud expenses.
+            Increased billing calculation speed by 30%, handling up to 10,000 transactions per second during peak usage times - Achieved using 
+            Kubernetes horizontal scaling in AWS EC2 and decoupled the components to communicate using Kafka message queues.
             </br>
             <br>
-            Throughout my tenure, I consistently demonstrated a strong aptitude for innovative problem-solving, collaboration with cross-functional teams, and the ability to drive tangible improvements in network performance, 
-            security, and cost-efficiency. These achievements underscore my dedication to delivering impactful solutions and my commitment to advancing Viasat Inc's technology infrastructure.
+            Managed core Calculation service which handles up to 10 TB of customer usage information that service interacts with both My SQL and Mongo data 
+            store using Hibernate and Spring Data services. 
             </br>
             <br>
-                <span style="color: dark-blue">Technologies: C, Go, Python, Java, Spring MVC, Django, Flask, Angular, Docker AWS, GIT, Nginx, Apache. </span>
+            Use Prometheus and Grafana to monitor the performance of the billing service continuously in AWS - Set up alerts for high latency and errors, 
+            enabling auto resolution using AWS Cloud Watcher and AWS Lambda results in reducing average incident response time by 40%.  
+            </br>  
+            <br>
+              <span style="color: dark-blue">
+                Technologies: JAVA, Python, C, C++, Node, React, Redux, Angular 7, Typescript, HTML5, CSS, ES6, JavaScript, ExpressJS, 
+                Django, Angular, Nginx, Apache, HTML5, CSS Technologies: Rust, Kafka, Azure, AWS, GraphQL, Mocha, JPA, Spring MVC, JUnit, microservices, 
+                NPM, Babel, Python Flask, Clarity Design, Artifactory.
+                Cloud Tools & Cloud Computing: KVM, QEMU, AWS, Ansible, Terraform, Docker, Grafana, Kafka Kubernetes.
+                DevOps Tools: Ansible, Jenkins, Chef, and GIT 
+                Other Frameworks: SDWAN, BING, Encog, MQTT, DataDog. 
+                Databases: RDBMS,  Mongo, MySQL, HBase, NoSQL, ORM 
+              </span>
             </br>
             </p>
               <!-- <div class="project-wrapper__text-btns">
@@ -196,8 +251,6 @@ Have fun creating your portfolio on this template!!! -->
           <!-- /END Project -->
 
             <article class="row">          
-              
-
               <article class="column">
                  <div class="project-wrapper__image">
                    <a href="#" target="_blank" rel="noopener noreferrer">
@@ -213,6 +266,7 @@ Have fun creating your portfolio on this template!!! -->
                     </a>
                   </div>
               </article>
+              
               <article class="column">
                 <div class="project-wrapper__text" >
                 <h3 class="project-wrapper__text-title">Software Developer (Jul 2016 - Dec 2017)</h3>
